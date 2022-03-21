@@ -1,0 +1,40 @@
+// 重置表格背景色
+.el-table {
+  background: transparent;
+}
+.el-table tr {
+  background: transparent;
+}
+.el-table th.el-table__cell {
+  background: transparent;
+}
+.el-table thead {
+  background: linear-gradient(to right, #093575 0%, transparent 50%);
+}
+
+// 重置表格高度
+.el-table .el-table__cell {
+  padding: 5px 0;
+}
+
+// 重置表格分割线
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf {
+  border-bottom: 1px solid #0B2B4D;
+}
+
+// 重置表格字体颜色
+.el-table th.el-table__cell>.cell {
+  color: #57B2FF;
+}
+.el-table td.el-table__cell div {
+  color: #fff;
+}
+
+// hover 样式
+.el-table tbody tr:hover > td {
+  background-color: transparent !important
+}
+
+.el-table::before {
+  height: 0;
+}

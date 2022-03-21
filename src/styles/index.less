@@ -1,0 +1,47 @@
+@import './mixin.less';
+@import './variables.less';
+@import './resetElementUI.less';
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: Microsoft YaHei, Helvetica Neue, Helvetica, Hiragino Sans GB, Arial, sans-serif;
+    // height: 100%;
+}
+html {
+    // height: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**
+ * ie
+ */
+input::-ms-reveal {
+    display: none;
+}
+input::-ms-clear{
+    display: none;
+}
+/*edge*/
+input::-o-clear{
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

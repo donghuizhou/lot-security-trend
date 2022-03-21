@@ -1,0 +1,31 @@
+.el-table {
+  background: transparent;
+}
+.el-table tr {
+  background: transparent;
+}
+.el-table th.el-table__cell {
+  background: transparent;
+}
+.el-table thead {
+  background: linear-gradient(to right, #093575 0%, transparent 50%);
+}
+.el-table .el-table__cell {
+  padding: 5px 0;
+}
+.el-table td.el-table__cell,
+.el-table th.el-table__cell.is-leaf {
+  border-bottom: 1px solid #0B2B4D;
+}
+.el-table th.el-table__cell > .cell {
+  color: #57B2FF;
+}
+.el-table td.el-table__cell div {
+  color: #fff;
+}
+.el-table tbody tr:hover > td {
+  background-color: transparent !important;
+}
+.el-table::before {
+  height: 0;
+}
